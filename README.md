@@ -10,11 +10,11 @@ Live Demos:
 
 Get Started:
 
-git clone https://github.com/brunomolinas/freelance-python-calculator
+git clone https://github.com/brunomoraledasec/freelance-python-calculator
 cd freelance-python-calculator
 python income_calc.py
 
-20h/week €20/h → Net €796/month
+20h/week €20/h → Net €964/month
 
 Features:
 - Hourly → monthly gross
