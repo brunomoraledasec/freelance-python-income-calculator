@@ -1,26 +1,27 @@
-# Freelance Python Income Calculator
+# Python Freelance Income Calculator
 
-CLI tool for Spanish freelancers (Vilassar de Mar). Calculates net monthly pay after IRPF/SS.
-## Demo
-![Terminal Run](demo-screenshot.gif)  <!-- Upload your GIF/png first as 'demo-screenshot.gif' -->
+Spain Autonomo Net Pay Tool - CLI + GUI.
 
-## Quick Install & Run
-1. `git clone [paste-your-repo-url-here]`
-2. `cd freelance-python-income-calculator`
-3. `python income_calc.py`
+Live Demos:
 
-[![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/downloads/)
+![CLI](cli-demo.png)
 
-## Features
-- Hourly rate/hours input
-- 21% IRPF + autonomo quota
-- Realistic 10-40h/week scenarios
-Hours/week: 20
-Example:
-Hours/week: 20
-Rate (€/h): 20
-Net monthly: €1296.00
+![GUI](gui-demo.png)
 
-## Run
-```bash
+Get Started:
+
+git clone https://github.com/brunomolinas/freelance-python-calculator
+cd freelance-python-calculator
 python income_calc.py
+
+20h/week €20/h → Net €796/month
+
+Features:
+- Hourly → monthly gross
+- 21% IRPF
+- €300 SS quota
+- CLI + Tkinter GUI
+
+![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg) ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+Bruno Moraleda
